@@ -51,10 +51,10 @@
         <ul class="navbar-nav navbar-right">
           <li class="nav-item">
             <a href="http://127.0.0.1:5500/login.html" class="nav-link">登入</a>
-        </li>
-        <li class="nav-item">
+          </li>
+          <li class="nav-item">
             <a href="http://127.0.0.1:5500/register.html" class="nav-link">註冊</a>
-        </li>
+          </li>
         </ul>
       </div>
     </div>
@@ -77,18 +77,17 @@
               <br>
               <label for="select" scope="col">年齡</label>
               <select name="select1" id="select1">
-                <option>請選擇</option>
-                <option>1-未設定</option>
-                <option>2-未設定</option>
-                <option>3-未設定</option>
+                <option id="Y1">國中生(含以下)</option>
+                <option id="Y2">高中生</option>
+                <option id="Y3">大學生</option>
+                <option id="Y4">上班族</option>
               </select>
 
               <label for="select" scope="col">性別</label>
               <select name="select2" id="select2">
-                <option>請選擇</option>
-                <option>女性</option>
-                <option>男性</option>
-                <option>中性</option>
+                <option id="g1">女性</option>
+                <option id="g2">男性</option>
+                <option id="g3">中性</option>
               </select>
               <br>
               &ensp;
@@ -100,20 +99,23 @@
               &ensp;
               <br>
               <div id="checkbox">
-                <label><input type="checkbox" name="variety" value="日系" checked="checked" /><span
+                <label><input id="d1" type="checkbox" name="variety" value="日系" checked="checked" /><span
                     class="round button">日系</span></label>
-                <label><input type="checkbox" name="variety" value="韓式" checked="checked" /><span
+                <label><input id="d2" type="checkbox" name="variety" value="韓式" checked="checked" /><span
                     class="round button">韓式</span></label>
-                <label><input type="checkbox" name="variety" value="歐美" checked="checked" /><span
+                <label><input id="d3" type="checkbox" name="variety" value="歐美" checked="checked" /><span
                     class="round button">歐美</span></label>
-                <label><input type="checkbox" name="variety" value="正式" /><span class="round button">正式</span></label>
-                <label><input type="checkbox" name="variety" value="設計" /><span class="round button">設計</span></label>
-                <label><input type="checkbox" name="variety" value="台灣品牌" /><span
+                <label><input id="d4" type="checkbox" name="variety" value="正式" /><span
+                    class="round button">正式</span></label>
+                <label><input id="d5" type="checkbox" name="variety" value="設計" /><span
+                    class="round button">設計</span></label>
+                <label><input id="d6" type="checkbox" name="variety" value="台灣品牌" /><span
                     class="round button">台灣品牌</span></label>
-                <label><input type="checkbox" name="variety" value="運動" /><span class="round button">運動</span></label>
-                <label><input type="checkbox" name="variety" value="明星自創" /><span
+                <label><input id="d7" type="checkbox" name="variety" value="運動" /><span
+                    class="round button">運動</span></label>
+                <label><input id="d8" type="checkbox" name="variety" value="明星自創" /><span
                     class="round button">明星自創</span></label>
-                <label><input type="checkbox" name="variety" value="專櫃品牌" /><span
+                <label><input id="d9" type="checkbox" name="variety" value="專櫃品牌" /><span
                     class="round button">專櫃品牌</span></label>
               </div>
 
